@@ -1,23 +1,39 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './components/Greet';
+import Welcome from './components/Welcome';
+import { Jsx } from './components/Jsx';
+import WelcomeState from './components/WelcomeState';
+import Count from './components/Count';
+import FunClick from './components/FunClick';
+import ClassClick from './components/ClassClick';
+import EventBInd from './components/EventBInd';
+import ParentComp from './components/ParentComp';
+import CondtionalRender from './components/CondtionalRender';
+import Rough from './components/Rough';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Rough/> */}
+      {/* <Greet name="Anas" no="1">
+        <p1> This is Child Prop</p1>
+        </Greet> */}
+      {/* <Greet name="Anna" no="2"/> */}
+      {/* <Greet name="Anny" no="3"/> */}
+      {/* <Welcome name="Anas" no="1"/> */}
+      {/* <Welcome name="Anna" no="2"/> */}
+      {/* <Jsx/> */}
+      {/* <WelcomeState/> */}
+      {/* <Count/> */}
+      {/* <FunClick/> */}
+      {/* <ClassClick/> */}
+      {/* <EventBInd/> */}
+      {/* <ParentComp/> */}
+      <CondtionalRender/>
+    
+
+
     </div>
   );
 }
