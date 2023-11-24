@@ -4,7 +4,7 @@ function Persons({person}) {
   return (
     <div>
 
-       <h2> I am {person.name} with id {person.id} </h2>
+       <h2> I am {person.name} with  id {person.id} </h2>
     </div>
   )
 }
