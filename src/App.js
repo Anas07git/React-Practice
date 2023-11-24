@@ -11,6 +11,7 @@ import EventBInd from './components/EventBInd';
 import ParentComp from './components/ParentComp';
 import CondtionalRender from './components/CondtionalRender';
 import Rough from './components/Rough';
+import NameList from './components/NameList';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <ClassClick/> */}
       {/* <EventBInd/> */}
       {/* <ParentComp/> */}
-      <CondtionalRender/>
+      {/* <CondtionalRender/> */}
+      <NameList/>
     
 
 
