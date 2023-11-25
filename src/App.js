@@ -12,6 +12,11 @@ import ParentComp from './components/ParentComp';
 import CondtionalRender from './components/CondtionalRender';
 import Rough from './components/Rough';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyle.css'
+import styles from './appStyle.module.css'
+import Form from './components/Form';
 
 function App() {
   return (
@@ -32,7 +37,10 @@ function App() {
       {/* <EventBInd/> */}
       {/* <ParentComp/> */}
       {/* <CondtionalRender/> */}
-      <NameList/>
+      {/* <NameList/> */}
+      {/* <Stylesheet primary={true} /> */}
+      {/* <Inline/> */}
+      <Form/>
     
 
 
