@@ -19,6 +19,8 @@ import styles from './appStyle.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA'; 
 import LifeCycleX from './components/LifeCycleX';
+import Fragment from './components/Fragment';
+import ParentClassComp from './components/ParentClassComp';
 
 function App() {
   return (
@@ -44,7 +46,9 @@ function App() {
       {/* <Inline/> */}
       {/* <Form/> */}
       {/* <LifeCycleA/> */}
-      <LifeCycleX/>
+      {/* <LifeCycleX/> */}
+      {/* <Fragment/> */}
+      <ParentClassComp/>
     
 
 

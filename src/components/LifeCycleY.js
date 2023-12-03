@@ -17,7 +17,7 @@ const ErrorComponent=()=>{
       }
     }
     static getDerivedStateFromProps(props,state){
-    
+     console.log("getDerivedStateFromProps")
         
         if(props.seed && state.seed!==props.seed){
             return{
@@ -44,9 +44,10 @@ const ErrorComponent=()=>{
     console.log("----------------")
   }
 
-  shouldComponentUpdate(prevProps,prevState){
-    if(prevProps.ignoreProp && this.props.ignoreProp !== prevProps.ignoreProp ){
+  shouldComponentUpdate(nextProps,nextState){
+    if(nextProps.ignoreProp && this.props.ignoreProp !== nextProps.ignoreProp ){
         console.log(" Should Component Update - DONOT RENDER")
+        // console.log(nextProps.ignoreProp,this.props.ignoreProp)
         console.log("----------------------------------------")
         return false
     }
