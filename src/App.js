@@ -21,6 +21,9 @@ import LifeCycleA from './components/LifeCycleA';
 import LifeCycleX from './components/LifeCycleX';
 import Fragment from './components/Fragment';
 import ParentClassComp from './components/ParentClassComp';
+import RefDemo from './components/RefDemo';
+import ParentRef from './components/ParentRef';
+import ForwardRefParent from './components/ForwardRefParent';
 
 function App() {
   return (
@@ -48,8 +51,11 @@ function App() {
       {/* <LifeCycleA/> */}
       {/* <LifeCycleX/> */}
       {/* <Fragment/> */}
-      <ParentClassComp/>
-    
+      {/* <ParentClassComp/> */}
+      {/* <RefDemo/> */}
+      <ParentRef/>
+      {/* <ForwardRefParent/> */}
+      
 
 
     </div>
