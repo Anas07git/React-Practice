@@ -24,6 +24,8 @@ import ParentClassComp from './components/ParentClassComp';
 import RefDemo from './components/RefDemo';
 import ParentRef from './components/ParentRef';
 import ForwardRefParent from './components/ForwardRefParent';
+import Portals from './components/Portals';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -50,11 +52,13 @@ function App() {
       {/* <Form/> */}
       {/* <LifeCycleA/> */}
       {/* <LifeCycleX/> */}
-      {/* <Fragment/> */}
+      {/* <Fragment/> */}   
       {/* <ParentClassComp/> */}
       {/* <RefDemo/> */}
-      <ParentRef/>
+      {/* <ParentRef/> */}
       {/* <ForwardRefParent/> */}
+      {/* <Portals/> */}
+      <Hero/>
       
 
 
