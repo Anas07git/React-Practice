@@ -26,6 +26,11 @@ import ParentRef from './components/ParentRef';
 import ForwardRefParent from './components/ForwardRefParent';
 import Portals from './components/Portals';
 import Hero from './components/Hero';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import RenderCount from './components/RenderCount';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
 
 function App() {
   return (
@@ -58,7 +63,16 @@ function App() {
       {/* <ParentRef/> */}
       {/* <ForwardRefParent/> */}
       {/* <Portals/> */}
-      <Hero/>
+      {/* <Hero/> */}
+      {/* <ClickCounter name="Anas"/> */}
+      {/* <HoverCounter /> */}
+      <RenderCount render={(count,increment)=> 
+      <ClickCounterTwo count={count} increment={increment}/>
+      }/>
+      <RenderCount render={(count,increment)=> 
+      <HoverCounterTwo count={count} increment={increment}/>
+      }/>
+     
       
 
 
